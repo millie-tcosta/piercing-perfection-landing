@@ -1,6 +1,14 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
+const links = [
+  { label: "Catálogo", href: "#catalogo" },
+  { label: "Materiais", href: "#materiais" },
+  { label: "Joalheria", href: "#joalheria" },
+  { label: "Agendamento", href: "#agendamento" },
+  { label: "Contato", href: "#contato" },
+];
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -12,22 +20,22 @@ const Navbar = () => {
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          {["Portfólio", "Joalheria", "Cuidados", "Agendamento"].map((item) => (
+          {links.map((item) => (
             <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
+              key={item.label}
+              href={item.href}
               className="text-sm tracking-wider text-muted-foreground hover:text-foreground transition-colors"
             >
-              {item}
+              {item.label}
             </a>
           ))}
         </div>
 
         <a
-          href="#contato"
+          href="#agendamento"
           className="hidden md:inline-block px-5 py-2 text-xs font-semibold tracking-widest border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
         >
-          CONSULTORIA
+          AGENDAR
         </a>
 
         <button
@@ -40,21 +48,22 @@ const Navbar = () => {
 
       {isOpen && (
         <div className="md:hidden bg-background border-t border-border px-6 py-4 space-y-3">
-          {["Portfólio", "Joalheria", "Cuidados", "Agendamento"].map((item) => (
+          {links.map((item) => (
             <a
-              key={item}
-              href={`#${item.toLowerCase()}`}
+              key={item.label}
+              href={item.href}
               className="block text-sm tracking-wider text-muted-foreground hover:text-foreground"
               onClick={() => setIsOpen(false)}
             >
-              {item}
+              {item.label}
             </a>
           ))}
           <a
-            href="#contato"
+            href="#agendamento"
             className="block px-5 py-2 text-xs font-semibold tracking-widest border border-primary text-primary text-center"
+            onClick={() => setIsOpen(false)}
           >
-            CONSULTORIA
+            AGENDAR
           </a>
         </div>
       )}

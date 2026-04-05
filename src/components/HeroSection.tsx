@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-aftercare.jpg";
+import heroImage from "@/assets/portfolio-ear.jpg";
 
 const HeroSection = () => {
   return (
@@ -6,16 +6,16 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
           <p className="text-xs tracking-[0.3em] text-muted-foreground uppercase">
-            Precisão em Recuperação
+            Estúdio de Body Piercing
           </p>
           <h1 className="text-4xl md:text-6xl font-heading font-bold leading-tight">
-            Cuidados &{" "}
-            <span className="italic text-primary">Integração</span>
+            Arte &{" "}
+            <span className="italic text-primary">Precisão</span>
           </h1>
           <p className="text-muted-foreground leading-relaxed max-w-md">
-            Um piercing é uma modificação cirúrgica do corpo. A cicatrização
-            bem-sucedida exige uma abordagem clínica à higiene e um compromisso
-            dedicado ao processo biológico de recuperação.
+            Perfurações executadas com técnica cirúrgica e joias de grau
+            implante. Cada piercing é uma expressão única, feita sob medida
+            para a sua anatomia.
           </p>
           <div className="flex gap-4 pt-4">
             <a
@@ -25,10 +25,10 @@ const HeroSection = () => {
               AGENDAR HORÁRIO
             </a>
             <a
-              href="#cuidados"
+              href="#catalogo"
               className="px-6 py-3 text-xs font-semibold tracking-widest border border-border text-foreground hover:border-primary transition-colors"
             >
-              VER CUIDADOS
+              VER CATÁLOGO
             </a>
           </div>
         </div>
@@ -36,14 +36,14 @@ const HeroSection = () => {
         <div className="relative">
           <img
             src={heroImage}
-            alt="Produtos de cuidados pós-piercing em ambiente clínico"
+            alt="Curadoria de piercings com joias de ouro e titânio"
             className="w-full h-[500px] object-cover"
-            width={1280}
-            height={720}
+            width={640}
+            height={800}
           />
           <div className="absolute bottom-0 right-0 bg-secondary px-6 py-3">
             <p className="text-sm italic font-heading text-foreground">
-              "A cura é uma arte."
+              "Precisão é a nossa arte."
             </p>
           </div>
         </div>

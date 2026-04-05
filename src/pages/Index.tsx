@@ -1,10 +1,9 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import PiercingCatalog from "@/components/PiercingCatalog";
+import MaterialsSection from "@/components/MaterialsSection";
 import PortfolioSection from "@/components/PortfolioSection";
-import GoldenRules from "@/components/GoldenRules";
-import CleaningRoutine from "@/components/CleaningRoutine";
-import ProhibitedActivities from "@/components/ProhibitedActivities";
-import BiologicalTimelines from "@/components/BiologicalTimelines";
+import ScheduleSection from "@/components/ScheduleSection";
 import ContactCTA from "@/components/ContactCTA";
 import Footer from "@/components/Footer";
 
@@ -13,11 +12,10 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navbar />
       <HeroSection />
+      <PiercingCatalog />
+      <MaterialsSection />
       <PortfolioSection />
-      <GoldenRules />
-      <CleaningRoutine />
-      <ProhibitedActivities />
-      <BiologicalTimelines />
+      <ScheduleSection />
       <ContactCTA />
       <Footer />
     </div>
