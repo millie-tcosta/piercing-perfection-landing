@@ -1,4 +1,4 @@
-import piercingHelix from "@/assets/piercing-helix.jpg";
+import piercingHelix from "@/assets/3ac6323e-7b5c-4a74-86fe-26750acddc0c.jpg";
 import piercingNostril from "@/assets/piercing-nostril.jpg";
 import piercingSeptum from "@/assets/piercing-septum.jpg";
 import piercingNavel from "@/assets/piercing-navel.jpg";
