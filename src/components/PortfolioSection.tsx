@@ -1,5 +1,5 @@
-import portfolioEar from "@/assets/portfolio-ear.jpg";
-import jewelryCollection from "@/assets/jewelry-collection.jpg";
+import portfolioEar from "@/assets/4e051e0a-7bf4-4ea3-b810-44f1a0777767.webp";
+import jewelryCollection from "@/assets/946c5c7f-cd68-4278-b9e3-85288e7f825d.jpg";
 
 const PortfolioSection = () => {
   return (
