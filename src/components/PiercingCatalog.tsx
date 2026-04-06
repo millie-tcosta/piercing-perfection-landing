@@ -1,7 +1,7 @@
 import piercingHelix from "@/assets/3ac6323e-7b5c-4a74-86fe-26750acddc0c.jpg";
 import piercingNostril from "@/assets/piercing-nostril.jpg";
 import piercingSeptum from "@/assets/piercing-septum.jpg";
-import piercingNavel from "@/assets/piercing-navel.jpg";
+import piercingNavel from "@/assets/cfb497e5-8689-4f64-bfb8-c0aecbe42478.jpg";
 import piercingLabret from "@/assets/piercing-labret.jpg";
 import portfolioEar from "@/assets/portfolio-ear.jpg";
 
