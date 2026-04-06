@@ -2,7 +2,7 @@ import piercingHelix from "@/assets/3ac6323e-7b5c-4a74-86fe-26750acddc0c.jpg";
 import piercingNostril from "@/assets/piercing-nostril.jpg";
 import piercingSeptum from "@/assets/piercing-septum.jpg";
 import piercingNavel from "@/assets/cfb497e5-8689-4f64-bfb8-c0aecbe42478.jpg";
-import piercingLabret from "@/assets/piercing-labret.jpg";
+import piercingLabret from "@/assets/6e8a9fa7-e000-4e02-bc45-4e4ad29fc1aa.jpg";
 import portfolioEar from "@/assets/portfolio-ear.jpg";
 
 const piercings = [
