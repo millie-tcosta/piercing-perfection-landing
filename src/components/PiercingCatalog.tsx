@@ -71,7 +71,7 @@ const PiercingCatalog = () => {
                 <img
                   src={item.image}
                   alt={`Piercing ${item.name}`}
-                  className="w-full h-[280px] object-cover group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-[280px] object-cover object-top group-hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                   width={640}
                   height={800}
