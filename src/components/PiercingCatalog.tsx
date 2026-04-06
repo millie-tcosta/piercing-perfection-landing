@@ -35,14 +35,14 @@ const piercings = [
     materials: ["Ouro 18K", "Titânio F136"],
   },
   {
-    name: "Sobrancelha",
-    image: piercingEyebrow,
-    description: "Composições na sobrancelha com mapeamento anatômico exclusivo.",
+    name: "Labret & Lábio",
+    image: piercingLabret,
+    description: "Perfurações labiais com flatback em titânio para máximo conforto.",
     healing: "2 – 3 meses",
     materials: ["Titânio F136", "Ouro 14K"],
   },
   {
-    name: "Lóbulo & Constelação",
+    name: "Sobrancelha",
     image: piercingEyebrow,
     description: "Composições na sobrancelha com mapeamento anatômico exclusivo.",
     healing: "6 – 8 semanas",
